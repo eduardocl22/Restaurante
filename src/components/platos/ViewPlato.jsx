@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from 'react'
-<<<<<<< HEAD
-import Titulo from '../layouts/Titulo'
-import Footer from '../layouts/Footer'
-=======
 import Titulo from '../layouts/titulo'
 import Headers from '../layouts/Footer'
->>>>>>> d5adabf346dd41201354ce9e7b2f7285c431cbf2
 import { Link, useParams } from 'react-router-dom';
 
 export default function ViewPlato() {
@@ -66,11 +61,7 @@ export default function ViewPlato() {
             <Link to={`/platos-react/dish/edit/${dish.id}`} style={{ display: 'inline-block', textDecoration: 'none', backgroundColor: '#3498db', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '4px', cursor: 'pointer', marginRight: '10px' }}>Editar Plato</Link>
             <Link to="/platos-react" style={{ display: 'inline-block', textDecoration: 'none', color: '#3498db', border: '1px solid #3498db', padding: '10px 20px', borderRadius: '4px', transition: 'background-color 0.3s, color 0.3s' }}>Volver a la Lista de Platos</Link>
         </div>
-<<<<<<< HEAD
-    <Footer/>
-=======
     <Headers/>
->>>>>>> d5adabf346dd41201354ce9e7b2f7285c431cbf2
     </div>
     
     </>
